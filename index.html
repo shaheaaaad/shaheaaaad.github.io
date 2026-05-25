@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shahd Bargouthi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <header class="topbar">
+    <a href="#home" class="brand">SB://portfolio</a>
+    <nav>
+      <a href="#work">work</a>
+      <a href="#projects">projects</a>
+      <a href="#poetry">poetry</a>
+      <a href="#food">food map</a>
+      <a href="https://www.linkedin.com/in/sbargouthi" target="_blank" rel="noreferrer">linkedin</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero pixel-panel">
+      <div class="hero-copy">
+        <p class="tag">computer engineering @ georgia tech</p>
+        <h1>Shahd<br>Bargouthi</h1>
+        <p class="subtitle">I build software for messy real-world systems: finance workflows, live sports infrastructure, web platforms, and the occasional tiny machine that makes me feel human.</p>
+        <div class="button-row">
+          <a class="pixel-button" href="mailto:sbargouthi3@gatech.edu">email me</a>
+          <a class="pixel-button ghost" href="https://www.linkedin.com/in/sbargouthi" target="_blank" rel="noreferrer">linkedin</a>
+        </div>
+      </div>
+      <div class="chip-art" aria-label="pixelated chip art">
+        <div class="chip-grid"></div>
+        <p>data // design // debugging // desire</p>
+      </div>
+    </section>
+
+    <section class="section two-col">
+      <div>
+        <p class="tag">current obsession</p>
+        <h2>Making research funding less painful.</h2>
+      </div>
+      <p class="lead">I’m helping build an entirely student-made internal finance platform for Georgia Tech’s College of Engineering. Research funding workflows can be painfully manual, so we are turning applications, budget management, approvals, and reporting into one cleaner system.</p>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-heading">
+        <p class="tag">experience</p>
+        <h2>Work history</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="card">
+          <div class="card-head"><h3>Amazon · SDE Intern, Prime Video Live Sports</h3><span>May 2026 – Present</span></div>
+          <p>Building backend ingestion pipelines for live sports metadata from partners including the NBA, WNBA, soccer leagues, Major League Baseball, FIFA World Cup, and FOX. Processing, normalizing, validating, and storing real-time event data using AWS services such as Lambda, ECS, and Aurora to support Prime Video streaming at scale.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>Georgia Tech College of Engineering · Software Engineering Intern</h3><span>Jan 2026 – Present</span></div>
+          <p>Building Django/MySQL finance tools for Georgia Tech’s College of Engineering to automate research funding applications, budget management, approvals, and reporting. Deploying with AWS services and CloudWatch monitoring to support reliable internal workflows.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>Amazon · SDE Intern, Prime Video Live Sports</h3><span>May 2025 – Aug 2025</span></div>
+          <p>Developed modular SwiftUI features for Apple TV live playback. Built reusable client-side components and ViewModels to display real-time sports data, including live scores, while improving responsiveness, data flow, and maintainability.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>Georgia Tech OIT · Web Developer</h3><span>Aug 2025 – Jan 2026</span></div>
+          <p>Built and maintained 200+ webpages across 10 Georgia Tech sites using HTML, CSS, and CampusPress, improving accessibility, responsiveness, and content quality. Collaborated with clients and design teams to troubleshoot UI issues, update content, and report engagement analytics.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>College of Computing · Discrete Mathematics TA</h3><span>Aug 2024 – May 2025</span></div>
+          <p>Taught and supported 800+ students in core CS theory topics including propositional logic, graph theory, combinatorics, number theory, finite automata, and proof techniques. Led office hours and helped students debug reasoning, write stronger proofs, and approach algorithmic problems more clearly.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>GLASS Lab · Research Assistant</h3><span>Mar 2024 – Aug 2024</span></div>
+          <p>Developed a Python/Tkinter research tool for microbial genomics analysis, using pandas, NumPy, and BioPython to process large sequencing datasets up to 500GB. Improved analysis workflows for biologists by making complex genomic data easier to explore, clean, and interpret.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>The Hive Makerspace · Peer Instructor</h3><span>Aug 2024 – Present</span></div>
+          <p>Taught students how to use advanced makerspace technologies including 3D printing, laser cutting, Arduino, and embedded systems. Helped students prototype safely, troubleshoot hardware projects, and build confidence with hands-on engineering tools.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>Amazon · Campus Brand Ambassador</h3><span>Current</span></div>
+          <p>Sharing Amazon opportunities, recruiting advice, and campus resources with students while helping make the path into corporate tech feel less mysterious and more reachable.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>Arab Student Organization · President</h3><span>Aug 2023 – Present</span></div>
+          <p>Led large-scale cultural events drawing 500+ attendees, launched campus initiatives including Dabkeh performances and cultural showcases, and helped build spaces where Arab students can feel seen, connected, and ambitious.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="tag">things i built</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="card project"><h3>COE Finance Platform</h3><p>An entirely student-built internal platform for research funding workflows: applications, budgets, approvals, reporting, persistence, and all the messy human details in between.</p></article>
+        <article class="card project"><h3>Petal</h3><p>A stock discovery platform that maps users’ favorite brands to public companies and ETFs, helping people understand markets through products they already know.</p></article>
+        <article class="card project"><h3>FinDice</h3><p>A Django personal finance app using the Plaid API to track transactions, categorize spending, visualize 1,000+ transactions, and generate personalized budgeting insights.</p></article>
+        <article class="card project"><h3>MovieCart</h3><p>A Django/PostgreSQL movie browsing system with optimized queries and APIs for filtering through 25k+ movie records.</p></article>
+        <article class="card project"><h3>Genomics GUI</h3><p>A Python/Tkinter tool for GLASS Lab that helps biologists analyze large microbial evolution and gene sequencing datasets.</p></article>
+        <article class="card project"><h3>Embedded Builds</h3><p>Arduino, ESP32, sensors, displays, LEDs, and playful physical computing projects, including arcade-style games and makerspace prototypes.</p></article>
+      </div>
+    </section>
+
+    <section class="section stats pixel-panel">
+      <div><span>1500</span><p>SAT</p></div>
+      <div><span>3.88</span><p>GPA</p></div>
+      <div><span>x3</span><p>Faculty Honors</p></div>
+      <div><span>x3</span><p>Dean’s List</p></div>
+      <div><span>#1</span><p>MENA IGCSE Business Studies</p></div>
+      <div><span>QR</span><p>Queen Rania Outstanding Learner Award</p></div>
+    </section>
+
+    <section id="poetry" class="section two-col poetry-wrap">
+      <div>
+        <p class="tag">soft machine log</p>
+        <h2>Poetry</h2>
+        <p class="lead">Because apparently I process circuitry, ambition, and being alive through tiny tech poems.</p>
+      </div>
+      <div class="poem card">
+        <p>As I push my fingers against the cold metal of this machine<br>
+        Thousands of electric fires ignite beneath me<br>
+        Do they know?<br>
+        They burn to be colors on a beautiful canvas<br>
+        Pixels, Pixels<br>
+        Beyond their logic<br>
+        and really, beyond their time</p>
+      </div>
+    </section>
+
+    <section id="food" class="section">
+      <div class="section-heading">
+        <p class="tag">side quest</p>
+        <h2>Restaurant ranking</h2>
+      </div>
+      <div class="food-grid">
+        <div class="food-card"><span>10.0</span><h3>Barcelona Wine Bar</h3><p>Spanish · Tapas · Atlanta</p></div>
+        <div class="food-card"><span>9.9</span><h3>Rumi’s Kitchen</h3><p>Iranian · Middle Eastern · Atlanta</p></div>
+        <div class="food-card"><span>9.9</span><h3>Sebastian Pintxos Bar</h3><p>Spanish · Midtown Atlanta</p></div>
+        <div class="food-card"><span>9.8</span><h3>Auntie Vee’s Kitchen</h3><p>Soul Food · Halal · Atlanta</p></div>
+        <div class="food-card"><span>9.7</span><h3>Gaja Korean Bar</h3><p>Korean · East Atlanta Village</p></div>
+        <div class="food-card"><span>9.7</span><h3>Anh’s Kitchen</h3><p>Vietnamese · Pho · Thai</p></div>
+        <div class="food-card"><span>9.6</span><h3>Rakoon Indian Restaurants</h3><p>Indian · Amman</p></div>
+        <div class="food-card"><span>9.5</span><h3>Farooj Abo Alabed Atlanta</h3><p>Arabic · Lawrenceville</p></div>
+        <div class="food-card"><span>9.5</span><h3>Satto Thai and Sushi Bar</h3><p>Japanese · Sushi · Thai</p></div>
+        <div class="food-card"><span>9.4</span><h3>no. 246</h3><p>Italian · Decatur</p></div>
+        <div class="food-card"><span>9.3</span><h3>Khashoka Abdoun</h3><p>Arabic · Middle Eastern · Amman</p></div>
+        <div class="food-card"><span>9.3</span><h3>Dantanna’s</h3><p>Steakhouse · Buckhead</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>built in pixels, coffee, and good old bias for action.</p>
+  </footer>
+</body>
+</html>
