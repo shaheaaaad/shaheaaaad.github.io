@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;600;800;900&display=swap');
 
 :root {
-  --bg: #f6f0df;
-  --ink: #1c1713;
-  --muted: #665b52;
-  --card: #fff9ea;
-  --line: #1c1713;
+  --bg: #0c1016;
+  --ink: #f6efe4;
+  --muted: #b8afa4;
+  --card: #151b24;
+  --line: #f6efe4;
   --pink: #ff4fd8;
-  --cyan: #00d7ff;
-  --green: #93ff6b;
+  --cyan: #2fe6ff;
+  --green: #9cff6b;
   --gold: #f5c84b;
 }
 
@@ -23,8 +23,8 @@ html {
 body {
   margin: 0;
   background:
-    linear-gradient(90deg, rgba(28, 23, 19, 0.04) 1px, transparent 1px),
-    linear-gradient(rgba(28, 23, 19, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(246, 239, 228, 0.05) 1px, transparent 1px),
+    linear-gradient(rgba(246, 239, 228, 0.05) 1px, transparent 1px),
     var(--bg);
   background-size: 18px 18px;
   color: var(--ink);
@@ -36,10 +36,10 @@ body {
   pointer-events: none;
   position: fixed;
   inset: 0;
-  background-image: radial-gradient(rgba(28, 23, 19, 0.12) 0.7px, transparent 0.7px);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 0.7px, transparent 0.7px);
   background-size: 7px 7px;
-  mix-blend-mode: multiply;
-  opacity: 0.28;
+  mix-blend-mode: screen;
+  opacity: 0.15;
   z-index: 10;
 }
 
@@ -65,7 +65,7 @@ body {
   place-items: center;
   border: 3px solid var(--line);
   background: var(--pink);
-  color: var(--ink);
+  color: #111;
   text-decoration: none;
   font-family: "Space Mono", monospace;
   font-weight: 700;
@@ -87,11 +87,12 @@ body {
 .nav nav a {
   border: 2px solid var(--line);
   padding: 6px 10px;
-  background: #fff;
+  background: #0f141c;
 }
 
 .nav nav a:hover {
   background: var(--green);
+  color: #101010;
 }
 
 main {
@@ -139,7 +140,7 @@ main {
   letter-spacing: 0.12em;
   font-weight: 700;
   font-size: 0.78rem;
-  color: #775a30;
+  color: var(--gold);
 }
 
 h1,
@@ -187,7 +188,7 @@ h3 {
   font-family: "Space Mono", monospace;
   font-size: 0.85rem;
   border: 2px solid var(--line);
-  background: white;
+  background: #0f141c;
   padding: 7px 10px;
 }
 
@@ -199,6 +200,7 @@ h3 {
 
 .links a:hover {
   background: var(--gold);
+  color: #111;
 }
 
 .hero-photo-wrap {
@@ -213,7 +215,7 @@ h3 {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border: 4px solid var(--line);
-  background: white;
+  background: #0f141c;
   box-shadow: 10px 10px 0 var(--pink), 18px 18px 0 var(--cyan);
   image-rendering: auto;
 }
@@ -236,6 +238,7 @@ figcaption {
   font-family: "Space Mono", monospace;
   border: 2px solid var(--line);
   background: var(--green);
+  color: #111;
   padding: 8px 10px;
   box-shadow: 4px 4px 0 var(--ink);
 }
@@ -255,7 +258,7 @@ section {
 
 .card {
   padding: 20px;
-  background: #fffaf0;
+  background: #151b24;
 }
 
 .card:nth-child(3n + 1) {
@@ -286,7 +289,7 @@ section {
 
 .card p {
   margin: 12px 0 0;
-  color: #3b332d;
+  color: #ddd4ca;
 }
 
 .photo-grid {
@@ -299,7 +302,7 @@ section {
 .photo-grid figure {
   margin: 0;
   padding: 10px;
-  background: #fff;
+  background: #151b24;
 }
 
 .photo-grid img {
@@ -335,6 +338,7 @@ section {
   width: fit-content;
   margin-top: auto;
   background: var(--cyan);
+  color: #111;
 }
 
 .poetry {
@@ -344,7 +348,7 @@ section {
   gap: 22px;
   align-items: start;
   background:
-    linear-gradient(135deg, rgba(255, 79, 216, 0.18), rgba(0, 215, 255, 0.18)),
+    linear-gradient(135deg, rgba(255, 79, 216, 0.12), rgba(47, 230, 255, 0.12)),
     var(--card);
 }
 
@@ -369,7 +373,7 @@ section {
   display: flex;
   gap: 12px;
   align-items: center;
-  background: #fff;
+  background: #151b24;
   box-shadow: 5px 5px 0 var(--gold);
 }
 
@@ -381,6 +385,7 @@ section {
   border: 3px solid var(--line);
   border-radius: 999px;
   background: var(--green);
+  color: #111;
   font-family: "Space Mono", monospace;
 }
 
